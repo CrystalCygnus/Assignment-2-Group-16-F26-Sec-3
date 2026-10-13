@@ -16,7 +16,7 @@ input.question("Enter the number of seats: ", (seats) => {
             seatCount < 2 || seatCount > 7 ||
             doorCount < 2 || doorCount > 5
         ) {
-            console.log("Invalid input: seats must be 2¨C7 and doors must be 2 - 5.");
+            console.log("Invalid input: seats must be2 - 7 and doors must be 2 - 5.");
             input.close();
             return;
         }
